@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(27, 27, 27);
+    font-family:'roboto' , sans-serif;
+
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 65px;
+    cursor: pointer;
+    background-color: rgb(32, 31, 31);
+}
+.nav-left{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+.nav-left > img{
+    padding-right: 10px;
+}
+.nav-right > img{
+    padding-right: 18px;
+}
+.search form{
+    display: flex;
+    height: 35px;
+    margin: 0px;
+    padding: 0px;
+}
+button{
+    background-color: rgb(32, 31, 31);
+    border: none;
+    padding: 5px;
+    padding-left: 8px;
+}
+.search input{
+    width: 500px;
+    padding: 10px;
+    background-color: rgb(49, 48, 48);
+}
+.search{
+    display: flex;
+}
+.sidebar_categories span{
+    color: white;
+    margin-left: 15px;
+}
+.mainbody{
+    height: calc(90vh - 80px);
+    display: flex;
+    overflow: hidden;
+}
+.sidebar{
+    height: 100%;
+    width: 220px;
+    overflow-y: scroll;
+}
+.sidebar_categories{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    margin-bottom: 15px;
+
+}
+.sidebar_category{
+    display: flex;
+    padding: 10px 25px;
+    align-items: center;
+}
+.sidebar_category:hover{
+    background: rgb(62, 62, 62);
+    cursor: pointer;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+hr{
+   border:1px solid rgb(45, 44, 44);
+}
+.sub_category{
+    display: flex;
+    padding: 8px 12px;
+    align-items: center;
+}
+.sub_category span{
+    color: white;
+    margin-left: 15px;
+    padding-top: 2px;
+}
+.subscription_option{
+    margin-left: 25px;
+    padding-top: 10px;
+}
+.sub_categories{
+    padding: 15px 15px;
+}
+.video{
+    padding-top: 20px;
+}
+.vid_title{
+    padding-top: 5px;
+}
+.video_category{
+    overflow-y: scroll;
+    width:900px;
+}
+.video_category::-webkit-scrollbar{
+    display: none;
+}
+.view_count{
+    padding-top: 8px;
+}
+.views_etc{
+    display: flex;
+    width: 900px;
+}
+.view_cat{
+    display: flex;
+    padding-left: 25px;
+    align-items: center;
+}
+.view_cat span{
+    color: white;
+    margin-left: 15px;
+    padding-top: 0px;
+}
+.moreview_cat{
+    display: flex;
+    padding-left: 220px;
+}
+.class_hr{
+    width: 900px;
+}
+.vid_des{
+    padding-top: 20px;
+    width: 900px;
+    display: flex;
+}
+.channel_icon{
+    display: flex;
+}
+.channel_name {
+    margin-left: 15px;
+    padding-top: 7px;
+}
+.sub{
+    padding-left: 592px;
+}
+.description{
+    width:600px;
+    margin-left:65px;
+    padding-top: 20px;
+}
+.description p{
+    color: white;
+    font-size: 15px;,
+}
+.comment_top{
+    padding-top: 15px;
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sort_by{
+    display: flex;
+}
+.sort_by span{
+    color: white;
+    margin-left: 10px;
+    padding-top: 4px;
+    font-size: 15px;
+}
+.comment_middle{
+    padding-top: 15px;
+    display: flex;
+}
+.com_mid_cont{
+    margin-left: 15px;
+    padding-top: 5px;
+}
+.comment_down{
+    width: 880px;
+    padding-top: 23px;
+    padding-left: 2px;
+    display: flex;
+}
+.written_com{
+    margin-left: 15px;
+}
+img{
+    cursor: pointer;
+}
+.written_com p{
+    color: white;
+    font-size: 14px;
+}
+.comment_rate{
+    width: 185px;
+    padding-left: 54px;
+    padding-top: 13px;
+    display: flex;
+    align-items: center ;
+    justify-content: space-between;
+}
+.comment_rate span{
+    color: rgb(134, 127, 127);
+    padding-left: 7px;
+    font-size: 13px;
+}
+.right_bar{
+    width: 350px;
+    margin-left:10px;
+    padding-top: 20px;
+    display: flex;
+}
+.thumb_des{
+    margin-left: 8px;
+    display: flex;
+    flex-direction: column;
+}
+.right_bar1{
+    width: 350px;
+    margin-left:10px;
+    padding-top: 5px;
+    display: flex;
+}
+.right_main_bar{
+    overflow-y: scroll;
+}
+.right_main_bar::-webkit-scrollbar{
+    display: none;
+}
